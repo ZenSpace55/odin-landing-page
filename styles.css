@@ -42,7 +42,7 @@ header{
 .header-background-image{
     background-color: rgb(114, 120, 133);
     text-align: center;
-    color: white;
+    color:  #F9FAF8;
     font-size: 18px;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -74,8 +74,9 @@ header{
 
 .item-display{
     display: flex;
-    margin: 50px 25% 0% 25%;
-    justify-content: space-between;
+    margin: 50px 20% 200px 20%;
+    justify-content: space-around;
+    gap: 20px;
 }
 
 .item-box{
@@ -96,19 +97,71 @@ header{
 
 .quote{
     font-size: 36px;
-    background-color: #E5E7EB;
+    background-color:#E5E7EB;
     font-style: italic;
     color: #1F2937;
     font-weight: 50;
-    margin: 200px 20% 0 20%;
+    margin: 0 -8px 0 -8px;
+    padding: 160px 0 160px 0;
+}
+
+.quote p{
+    margin: 0 20% 0 20%;
 }
 
 .quote-credit{
-    font-size: 22px;
+    font-size: 26px;
     text-align: right;
+    font-style: normal;
     background-color: #E5E7EB;
     color: #1F2937;
     font-weight: 900;
     margin: 0 20% 200px 20%;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    margin: 100px 15% 100px 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-to-action div{
+    align-content: center;
+}
+
+.call-to-action h2{
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.call-to-action p{
+    color:  #F9FAF8;
+    font-size: 18px;
+}
+
+.call-to-action button{
+    background-color: #3882F6;
+    font-weight: 800;
+    font-size:  18px;
+    color: #F9FAF8;
+    border-color:  #F9FAF8;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 8px;
+    height: 40px;
+    align-self: center;
+}
+
+footer{
+    background-color: #1F2937;
+    height: 100px;
+    margin: 0 -8px -8px -8px;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    line-height: 100px;
 }
 
